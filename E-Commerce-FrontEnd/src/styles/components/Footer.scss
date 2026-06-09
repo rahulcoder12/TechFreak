@@ -1,0 +1,18 @@
+@use "../abstracts/variables" as v;
+
+.section-footer {
+  position: absolute;
+  width: 100%;
+  bottom: -1%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 1.8rem;
+  padding-bottom: 1.2rem;
+  &__link:link,
+  &__link:visited {
+    text-decoration: none;
+    color: v.$primary-blue-color;
+    font-weight: 500;
+  }
+}
